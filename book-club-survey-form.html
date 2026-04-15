@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Book Club Survey Form</h1>
+
+    <p id="description">Please let us know your experiences of book club this year and help us improve.</p>
+
+    <form id="survey-form">
+
+      <label for="name" id="name-label">Full Name: </label>
+      <input required type="text" id="name" placeholder="Joe Bloggs"> <br>
+
+      <label for="email" id="email-label">Email address: </label>
+      <input required type="email" id="email" placeholder="example@email.com"> <br>
+
+      <label for="number" id="number-label">Age (optional): </label>
+      <input type="number" id="number" min="18" max="100" placeholder="28"><br>
+
+      <p>Did you enjoy Book Club this year?</p>
+      <select id="dropdown">
+        <option>Yes</option>
+        <option>No</option>
+      </select> <br>
+
+      <p>Would you recommend Book Club to a friend?</p>
+      <input type="radio" name="recommend" id="yes-option" value="yes">
+      <label for="yes-option">Yes</label>
+      <input type="radio" name="recommend" id="no-option" value="no">
+      <label for="no-option">No</label>
+
+      <p>What could be improved? (Select all that apply.)</p>
+      <input type="checkbox" value="more-books" id="more-books">
+      <label for="more-books">More books</label>
+      <input type="checkbox" value="fewer-books" id="fewer-books">
+      <label for="fewer-books">Fewer books</label>
+      <input type="checkbox" value="more-snacks" id="more-snacks">
+      <label for="more-snacks">More snacks</label>
+
+      <p>Any other suggestions?</p>
+      <textarea placeholder="Write your suggestions here...">
+      </textarea><br>
+      <button type=submit id="submit">Submit</button>
+
+    </form>
+
+  </body>
+</html>
