@@ -1,0 +1,34 @@
+.blog-post-card {
+  background-color: aliceblue;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid steelblue;
+}
+
+.post-content {
+  padding: 8px;
+}
+
+.post-title, .post-excerpt {
+  color: steelblue;
+  margin: 10px;
+}
+
+.read-more {
+  color: navy;
+  background-color: lightgrey;
+  margin: 8px;
+  padding: 6px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.read-more:hover {
+  background-color: slategrey;
+}
