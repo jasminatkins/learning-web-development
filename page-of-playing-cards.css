@@ -1,0 +1,47 @@
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  height: 100vh;
+  background-color: palegreen;
+}
+
+.card {
+  width: 200px;
+  height: 280px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 3px 3px black;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+}
+
+.card3 {
+  color: red;
+}
+
+.left {
+  align-self: flex-start;
+  font-size: 40px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  font-size: 80px;
+}
+
+.right {
+  align-self: flex-end;
+  font-size: 40px;
+  transform: rotate(180deg);
+}
+
+.club2, .heart3 {
+  transform: rotate(180deg);
+}
