@@ -1,0 +1,83 @@
+* {
+  text-align: center;
+  padding: 0 2px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+thead {
+  background-color: hsl(260, 70%, 80%);
+}
+
+tr[class="read"] {
+  background-image: linear-gradient(hsl(195, 70%, 70%), hsl(195, 70%, 80%))
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(hsl(245, 70%, 70%), hsl(245, 70%, 80%))
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(hsl(295, 70%, 70%), hsl(295, 70%, 80%))
+}
+
+span {
+  display: inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+  width: 80px;
+  border: 2px solid hsl(245, 60%, 40%);
+  border-radius: 45%;
+  background-image: linear-gradient(hsl(245, 80%, 50%), hsl(245, 80%, 60%));
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+tr[class="read"] span[class="status"] {
+  width: 80px;
+  border: 2px solid hsl(195, 60%, 40%);
+  border-radius: 45%;
+  background-image: linear-gradient(hsl(195, 80%, 50%), hsl(195, 80%, 60%));
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+tr[class="in-progress"] span[class="status"] {
+  width: 80px;
+  border: 2px solid hsl(295, 60%, 40%);
+  border-radius: 45%;
+  background-image: linear-gradient(hsl(295, 80%, 50%), hsl(295, 80%, 60%));
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+span[class="status"], span[class^="rate"] {
+  height: 10px;
+  width: 52px;
+  padding: 5px;
+  margin: 8px;
+}
+
+span[class^="rate"] > span {
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 1px;
+  height: 12px;
+  width: 8px;
+  background-color: aliceblue;
+}
+
+span[class~="one"] span:first-child {
+  background-image: linear-gradient(pink, hotpink);
+}
+
+span[class~="two"] span:first-child, span[class~="two"] span:nth-child(2) {
+  background-image: linear-gradient(pink, hotpink);
+}
+
+span[class~="three"] span {
+  background-image: linear-gradient(pink, hotpink);
+}
