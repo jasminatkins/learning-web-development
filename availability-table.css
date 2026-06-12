@@ -1,0 +1,99 @@
+:root {
+  --color0: hsl(227, 50%, 100%);
+  --color1: hsl(227, 50%, 90%);
+  --color2: hsl(227, 50%, 80%);
+  --color3: hsl(227, 50%, 70%);
+  --color4: hsl(227, 50%, 60%);
+  --color5: hsl(227, 50%, 50%);
+  --solid-border: 1px solid hsl(227, 50%, 20%);
+  --dashed-border: 1px dashed hsl(227, 50%, 20%);
+}
+
+body {
+  background-color: hsl(227, 100%, 90%);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10vh auto;
+}
+
+th, span {
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: normal;
+  padding: 2.5vh;
+}
+
+td {
+  width: 20vh;
+  height: 7vh;
+}
+
+.sharp td {
+  border-bottom: var(--solid-border);
+}
+
+.half td, .half th:not(.time, .empty) {
+  border-bottom: var(--dashed-border);
+}
+
+.available-0 {
+  background-color: var(--color0);
+}
+
+.available-1 {
+  background-color: var(--color1);
+}
+
+.available-2 {
+  background-color: var(--color2);
+}
+
+.available-3 {
+  background-color: var(--color3);
+}
+
+.available-4 {
+  background-color: var(--color4);
+}
+
+.available-5 {
+  background-color: var(--color5);
+}
+
+#legend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#legend > span {
+  padding: 1vh;
+}
+
+#legend-gradient {
+  border: var(--solid-border);
+  height: 1.4rem;
+  width: 10rem;
+  background: linear-gradient(
+    to right,
+    var(--color0) 16.5%,
+    var(--color1) 16.5% 33%,
+    var(--color2) 33% 49.5%,
+    var(--color3) 49.5% 66%,
+    var(--color4) 66% 82.5%,
+    var(--color5) 82.5%
+  );
+}
+
+#legend div:last-child {
+  width: 10rem;
+  display: flex;
+}
+
+#legend div:last-child span {
+  flex: 1;
+  padding: 1vh 0;
+  text-align: center;
+}
