@@ -1,0 +1,145 @@
+:root {
+  --main-color: #39A2AE;
+  --accent-color: #02394A;
+  --base-color: #F1FFE7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--accent-color);
+}
+
+a, h1, p {
+  font-family: "Century Gothic", sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: var(--accent-color);
+  border-bottom: 0.1rem var(--base-color) double;
+}
+
+#navbar a {
+  color: var(--base-color);
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+#navbar a:hover, #contact-section a:hover {
+  background-color: var(--main-color);
+}
+
+#welcome-section {
+  background-color: var(--main-color);
+  color: var(--base-color);
+  text-align: center;
+  font-size: 3rem;
+  padding-top: 12rem;
+  height: calc(100vh - 12rem);
+}
+
+#welcome-section p {
+  color: var(--accent-color);
+  font-style: italic;
+}
+
+#project-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  justify-items: center;
+  margin: 3rem;
+  background-color: var(--accent-color);
+}
+
+.project-tile {
+  box-shadow: 0.1rem 0.1rem 0.2rem var(--accent-color);
+  background-color: var(--main-color);
+  border-radius: 0.2rem;
+}
+
+.project-tile a {
+  color: var(--base-color);
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-tile img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 0.2rem;
+}
+
+.project-tile span {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.project-tile span::before {
+  content: "< ";
+  color: var(--accent-color);
+  opacity: 0;
+}
+
+.project-tile span::after {
+  content: " />";
+  color: var(--accent-color);
+  opacity: 0;
+}
+
+.project-tile a:hover span::before {
+  content: "< ";
+  color: var(--accent-color);
+  opacity: 1;
+}
+
+.project-tile a:hover span::after {
+  content: " />";
+  color: var(--accent-color);
+  opacity: 1;
+}
+
+#contact-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: var(--accent-color);
+  border-top: 0.1rem var(--base-color) double;
+}
+
+#contact-section a {
+  color: var(--base-color);
+  font-size: 1.6rem;
+  padding: 2rem;
+  white-space: nowrap;
+  justify-self: center;
+}
+
+#contact-section img {
+  height: 1.3rem;
+  width: auto;
+}
+
+@media screen and (min-width: 660px) {
+  html {
+  font-size: 82.5%;
+  }
+
+  #project-section {
+  gap: 6rem;
+  margin: 6rem;
+}
