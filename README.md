@@ -7,7 +7,7 @@ This repository contains my first HTML and CSS projects, completed as part of fr
 ### HTML
 
 #### Basic HTML
-- Curriculum Outline
+- [Curriculum Outline](https://github.com/jasminatkins/learning-web-development/tree/main/curriculum-outline)
 - Debug Camperbot's Profile Page
 - Debug a Pet Adoption Page
 - Cat Photo App
