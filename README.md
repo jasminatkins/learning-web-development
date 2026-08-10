@@ -14,7 +14,7 @@ This repository contains my first HTML and CSS projects, completed as part of fr
 - Recipe Page
 - Bookstore Page
 - Travel Agency Page
-- HTML Music Player
+- [HTML Music Player](https://github.com/jasminatkins/learning-web-development/tree/main/html-music-player)
 - [HTML Video Player](https://github.com/jasminatkins/learning-web-development/tree/main/html-video-player)
 - HTML Audio and Video Player
 - Heart Icon
