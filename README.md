@@ -7,19 +7,11 @@ This repository contains my first HTML and CSS projects, completed as part of fr
 ### HTML
 
 #### Basic HTML
-- [Curriculum Outline](https://github.com/jasminatkins/learning-web-development/tree/main/curriculum-outline)
-- Debug Camperbot's Profile Page
-- Debug a Pet Adoption Page
-- Cat Photo App
-- Recipe Page
-- Bookstore Page
-- Travel Agency Page
 - [HTML Music Player](https://github.com/jasminatkins/learning-web-development/tree/main/html-music-player)
 - [HTML Video Player](https://github.com/jasminatkins/learning-web-development/tree/main/html-video-player)
 - HTML Audio and Video Player
 - Heart Icon
 - Video Display Using iframe
-- Video Compilation Page
 
 #### Semantic HTML
 - List of Major Web Browsers
