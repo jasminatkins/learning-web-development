@@ -9,7 +9,7 @@ This repository contains my first HTML and CSS projects, completed as part of fr
 #### Basic HTML
 - [HTML Music Player](https://github.com/jasminatkins/learning-web-development/tree/main/html-music-player)
 - [HTML Video Player](https://github.com/jasminatkins/learning-web-development/tree/main/html-video-player)
-- HTML Audio and Video Player
+- [HTML Audio and Video Player](https://github.com/jasminatkins/learning-web-development/tree/main/html-audio-and-video-player)
 - Heart Icon
 - Video Display Using iframe
 
