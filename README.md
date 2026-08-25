@@ -11,7 +11,7 @@ This repository contains my first HTML and CSS projects, completed as part of fr
 - [HTML Video Player](https://github.com/jasminatkins/learning-web-development/tree/main/html-video-player)
 - [HTML Audio and Video Player](https://github.com/jasminatkins/learning-web-development/tree/main/html-audio-and-video-player)
 - [Heart Icon](https://github.com/jasminatkins/learning-web-development/tree/main/heart-icon)
-- Video Display Using iframe
+- [iframe Video Display](https://github.com/jasminatkins/learning-web-development/tree/main/iframe-video-display)
 
 #### Semantic HTML
 - List of Major Web Browsers
