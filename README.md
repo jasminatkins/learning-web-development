@@ -14,7 +14,7 @@ This repository contains my first HTML and CSS projects, completed as part of fr
 - [iframe Video Display](https://github.com/jasminatkins/learning-web-development/tree/main/iframe-video-display)
 
 #### Semantic HTML
-- List of Major Web Browsers
+- [List of Major Web Browsers](https://github.com/jasminatkins/learning-web-development/tree/main/list-of-major-web-browsers)
 - Quincy's Job Tips Page
 - Cat Blog Page
 - Event Hub
