@@ -15,7 +15,7 @@ This repository contains my first HTML and CSS projects, completed as part of fr
 
 #### Semantic HTML
 - [List of Major Web Browsers](https://github.com/jasminatkins/learning-web-development/tree/main/list-of-major-web-browsers)
-- Quincy's Job Tips Page
+- [Quincy's Job Tips Page](https://github.com/jasminatkins/learning-web-development/tree/main/job-tips-page)
 - Cat Blog Page
 - Event Hub
 
